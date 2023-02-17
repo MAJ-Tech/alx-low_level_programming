@@ -8,21 +8,20 @@
 
 int main(void)
 {
-	char mychar;
-	int myint;
-	long int my_long_int;
-	long long int my_long_long_i;
-	float myfloat;
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 	/** commenytt */
 	printf("Size of a char: %lu byte(s)\n",
-	       (unsigned long)sizeof(mychar));
+	       (unsigned long)sizeof(a));
 	printf("Size of an int: %lu byte(s)\n",
-	       (unsigned long)sizeof(myint));
+	       (unsigned long)sizeof(b));
 	printf("Size of of a long int: %lu byte(s)\n",
-	       (unsigned long)sizeof(my_long_int));
+	       (unsigned long)sizeof(c));
 	printf("Size of a long long int: %lu byte(s)\n",
-	       (unsigned long)sizeof(my_long_long_i));
-	printf("Size of a float: %lu byte(s)\n",
-	       (unsigned long)sizeof(myfloat));
+	       (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
 }
