@@ -22,7 +22,7 @@ int main(void)
 	       (unsigned long)sizeof(my_long_int));
 	printf("Size of a long long int: %lu byte(s)\n",
 	       (unsigned long)sizeof(my_long_long_i));
-	printf("Size of a float: %lu bytes(s)\n",
+	printf("Size of a float: %lu byte(s)\n",
 	       (unsigned long)sizeof(myfloat));
 	return (0);
 }
