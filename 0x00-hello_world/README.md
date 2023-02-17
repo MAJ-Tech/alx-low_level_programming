@@ -30,8 +30,16 @@ but with the extension .s instead of .c.
 * The C file name will be saved in the variable [$CFILE].
 
 ## 4. Hello, puts
-* Write a C program that prints exactly ** Programming
-is like building a multilingual puzzl **.
+* Write a C program that prints exactly __Programming
+is like building a multilingual puzzl__.
 * Use the function puts
 * You are not allowed to use printf.
 * Your program should end with the value 0.
+
+## 5. Hello, printf
+* A C program that prints exactly _with proper grammar,
+but the outcome is a piece of art,, followed by a new line_.
+* Use the function printf.
+* ou are not allowed to use the function puts.
+* Your program should return 0.
+* Your program should compile without warning when using the -Wall gcc option.
