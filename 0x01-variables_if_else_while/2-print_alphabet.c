@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- *prints alphabets from a to z
- @putchr for out put
- * main - Entery point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+/** main - Entery point*/
 int main(void)
 {
 	char c = 'a';
+	/** Beginning of the while loop*/
 	while (c <= 'z')
 	{
 		putchar(c);
