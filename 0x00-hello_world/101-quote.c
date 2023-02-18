@@ -7,7 +7,11 @@
  */
 int main(void)
 {
-	write(STDOUT_FILENO, "and that piece of art is useful
-			\" - Dora Korpar, 2015-10-19\n", 59);
+	char q[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	long unsigned int i;
+	/**The beginning of the for loop*/
+	for (i = 0; i < sizeof(q); i++)
+		putchar(q[i]);
+	putchar('\n');
 	return (1);
 }
