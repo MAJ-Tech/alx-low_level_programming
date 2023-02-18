@@ -19,3 +19,8 @@ if:
 	* _is equal to 0_.
 	* _is less than 6 and not 0_.
 
+## The Game of Alphabets.
+* This C program the alphabet letters from a to z.
+* Uses the putchar funtion
+* exploites the fact that chars are just intergers.
+* Starts from a to z while outprinting them all.
