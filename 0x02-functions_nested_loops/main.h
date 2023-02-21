@@ -8,4 +8,6 @@ void print_alphabet_x10(void);
 int _islower(int c);
 /** Function - Check if a character is a later or not*/
 int _isalpha(int c);
+/** Function - Check for + and - numbers*/
+int print_sign(int n);
 
