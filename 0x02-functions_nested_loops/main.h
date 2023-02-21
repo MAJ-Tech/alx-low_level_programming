@@ -2,4 +2,6 @@
 int _putchar(char c);
 /** Function prints alphabets*/
 void print_alphabet(void);
+/** Function prints alphabets x10*/
+void print_alphabet_x10(void);
 
