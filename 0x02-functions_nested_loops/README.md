@@ -21,3 +21,8 @@
 * A C function that check if a character is a lowercase or not.
 * Return ``` 1 ``` if the character(later) is lowercase.
 * Return ``` 0 ``` if the character is not.
+
+## 4. isalpha
+* A C   function that checks for alphabetic character.
+* Returns 1 if c is a letter, lowercase or uppercase.
+* Returns 0 otherwise.
