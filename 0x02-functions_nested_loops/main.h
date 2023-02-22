@@ -14,4 +14,7 @@ int print_sign(int n);
 int _abs(int);
 /** Function -  that prints the last digit of a number.*/
 int print_last_digit(int);
+/** Function -  that prints every minute of the day of Jack Bauer*/
 void jack_bauer(void);
+/** Function- prints the 9 time table*/
+void times_table(void);

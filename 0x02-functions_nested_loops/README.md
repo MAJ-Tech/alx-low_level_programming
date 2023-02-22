@@ -41,3 +41,13 @@
 ## 7. There are only 3 colors, 10 digits, and 7 notes
 * A C function that prints the last digit of a number.
 * Returns the value of the last digit.
+
+## 8. I'm federal agent Jack Bauer.
+* A function that prints every minute of the day of Jack Bauer.
+* Starting from ``` 00:00 ``` to ``` 23:59 ```.
+* Federal agents ae smart and manuplative.
+* In this solution we should think like one.
+
+## 9. Learn your times table
+* A C Function that prints the 9 time table
+* Exploite nested loops
