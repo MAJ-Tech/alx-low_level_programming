@@ -18,3 +18,6 @@ int print_last_digit(int);
 void jack_bauer(void);
 /** Function- prints the 9 time table*/
 void times_table(void);
+/** Funtion - add two integers and return the result*/
+int add(int, int);
+

@@ -51,3 +51,7 @@
 ## 9. Learn your times table
 * A C Function that prints the 9 time table
 * Exploite nested loops
+
+## 10. a + b
+* A C function that adds two integers.
+* returns the result as a double.
