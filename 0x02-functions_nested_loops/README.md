@@ -24,8 +24,8 @@
 
 ## 4. isalpha
 * A C   function that checks for alphabetic character.
-* Returns 1 if c is a letter, lowercase or uppercase.
-* Returns 0 otherwise.
+* Returns ``` 1 ``` if c is a letter, lowercase or uppercase.
+* Returns ``` 0 ``` otherwise.
 
 ## 5. Sign
 * A C  function that prints the sign of a number.
@@ -36,4 +36,8 @@
 ## 6. Absolute is an understatement
 * A C function that computes the absolute value of an integer.
 * Without using the main liberary ``` abs ```.
-* Uses ``` _puchar() ``` instead of ``` printf() ```
+* Uses ``` _puchar() ``` instead of ``` printf() ```.
+
+## 7. There are only 3 colors, 10 digits, and 7 notes
+* A C function that prints the last digit of a number.
+* Returns the value of the last digit.
