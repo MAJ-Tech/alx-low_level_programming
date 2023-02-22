@@ -14,3 +14,4 @@ int print_sign(int n);
 int _abs(int);
 /** Function -  that prints the last digit of a number.*/
 int print_last_digit(int);
+void jack_bauer(void);
