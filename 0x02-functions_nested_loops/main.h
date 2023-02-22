@@ -10,4 +10,6 @@ int _islower(int c);
 int _isalpha(int c);
 /** Function - Check for + and - numbers*/
 int print_sign(int n);
+/** Function - Return the absolute values of numbers*/
+int _abs(int);
 
