@@ -23,7 +23,18 @@ void print_times_table(int n)
 				printf("%d", N);
 				if (j == n)
 					continue;
-				printf(", ");
+				if (N > 9 && N <= 99)
+				{
+					printf(",  ");
+				}
+				else if (N <= 9)
+				{
+					printf(",   ");
+				}
+				else
+				{
+					printf(", ");
+				}
 			}
 			printf("\n");
 		}
