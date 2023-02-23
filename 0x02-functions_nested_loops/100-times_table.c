@@ -20,7 +20,6 @@ void print_times_table(int n)
 			{
 				int N = i * j;
 				/** */
-				printf("%d", N);
 				if (j == n)
 					continue;
 				if (N > 9 && N <= 99)
@@ -35,6 +34,7 @@ void print_times_table(int n)
 				{
 					printf(", ");
 				}
+				printf("%d", N);
 			}
 			printf("\n");
 		}
