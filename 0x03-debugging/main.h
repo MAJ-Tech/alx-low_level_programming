@@ -1,1 +1,1 @@
-int positive_or_negative(int);
+#IFNDEF int positive_or_negative(int); #ENDIF
