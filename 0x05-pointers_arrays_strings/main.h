@@ -7,3 +7,6 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 /** prints a string to stdout*/
 void _puts(char *str);
+/** Prints a string a string in reverse in stdout*/
+void print_rev(char *s);
+
