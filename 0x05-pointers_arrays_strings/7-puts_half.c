@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2_half - Prints the last half of a string to the stdout
+ * puts_half - Prints the last half of a string to the stdout
  *
  * @str: The string to be printed
  *
