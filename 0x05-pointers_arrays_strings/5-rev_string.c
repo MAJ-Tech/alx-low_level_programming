@@ -10,7 +10,7 @@ void rev_string(char *s)
 {
 	int i = 0, j = 0;
 	char c;
- 	/** Find the len of the array 's'*/
+	/** loop*/
 	while (s[i] != '\0')
 	{
 		i++;
