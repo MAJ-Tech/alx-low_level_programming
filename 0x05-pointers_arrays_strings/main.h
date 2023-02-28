@@ -9,4 +9,5 @@ int _strlen(char *s);
 void _puts(char *str);
 /** Prints a string a string in reverse in stdout*/
 void print_rev(char *s);
-
+/** function reverse a string */
+void rev_string(char *s);
