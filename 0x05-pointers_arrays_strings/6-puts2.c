@@ -10,7 +10,7 @@ void  puts2(char *str)
 {
 	int i = 0, j = 0;
 	/** loop through the array to count len*/
-	while ( str[i] != '\0')
+	while (str[i] != '\0')
 		i++;
 	i -= 1;
 	for (; j <= i; j += 2)
