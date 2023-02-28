@@ -8,15 +8,12 @@
  */
 void  puts2(char *str)
 {
-	int i = 0;
+	int i = 0, j = 0;
 	/** loop through the array to count len*/
-	while (str[i])
-	{
-		if (str[i] != 0)
-		{
-			_putchar(*(str + i));
-			i += 2;
-		}
-	}
+	while ( str[i] != '\0')
+		i++;
+	i -= 1;
+	for (; j <= i; j += 2)
+		_putchar(str[j]);
 	_putchar('\n');
 }
