@@ -17,3 +17,5 @@ void puts2(char *str);
 void puts_half(char *str);
 /**  prints n elements of an array of integers*/
 void print_array(int *a, int n);
+/** Implement strcpy */
+char *_strcpy(char *dest, char *src);
