@@ -13,3 +13,5 @@ void print_rev(char *s);
 void rev_string(char *s);
 /** prints evry other character*/
 void puts2(char *str);
+/** print the last half of a string*/
+void puts_half(char *str);
