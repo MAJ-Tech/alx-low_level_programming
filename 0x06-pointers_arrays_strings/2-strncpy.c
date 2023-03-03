@@ -12,8 +12,11 @@ char *_strncpy(char *dest, char *src, int n)
 	char *str = dest, *start = src;
 	int i = 0, j = 0;
 	/** lopps*/
-	while (*src++)
+	while (*src)
+	{
+		src++;
 		i++;
+	}
 	i++;
 	if (n > i)
 		n = i;

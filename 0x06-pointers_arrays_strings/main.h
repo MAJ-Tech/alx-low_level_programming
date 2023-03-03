@@ -8,3 +8,5 @@ char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 /** Implimentation of strcmp */
 int _strcmp(char *s1, char *s2);
+/** Rverse the content of an intiger array*/
+void reverse_array(int *a, int n);
