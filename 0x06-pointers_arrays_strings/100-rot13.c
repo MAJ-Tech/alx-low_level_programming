@@ -8,6 +8,7 @@
 char *rot13(char *s)
 {
 	char *str = s;
+	/** loop*/
 	while (*s)
 	{
 		while ((*s >= 'a' && *s <= 'z') || (*s >= 'A' && *s <= 'Z'))
