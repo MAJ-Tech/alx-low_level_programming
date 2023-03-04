@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * root13 - encrypth a message using .
+ * rot13 - encrypth a message using .
  * @s: a string
  *
  *Return: a cipher string.
@@ -8,7 +8,7 @@
 char *rot13(char *s)
 {
 	char *str = s;
-	/** loop*/
+	/** loothjsjddkjdjkslk smsdljkdHDKDH p*/
 	while (*s)
 	{
 		while ((*s >= 'a' && *s <= 'z') || (*s >= 'A' && *s <= 'Z'))
