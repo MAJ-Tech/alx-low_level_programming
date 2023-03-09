@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 
 /**
  * _sqrt - check for perfect square.
- * @num: squares starting at 1.
+ * @num: squares starting.
  * @Bn: natural number.
  * Return: perfect suare of @Bn.
  */
