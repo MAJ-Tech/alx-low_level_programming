@@ -4,7 +4,7 @@ int get_len(char *s);
 int plaindrom_checker(char *s, int len);
 
 /**
- * is_plaindrom - check if a string is a plaindrom.
+ * is_palindrome - check if a string is a plaindrom.
  * @n: integer
  * Return: 1 (for true) and 0 (for false).
  */
