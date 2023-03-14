@@ -24,14 +24,16 @@ unsigned int _strlen(char *s)
  */
 char *_strdup(char *str)
 {
+	unsigned int size, i;
+	char *new_str, *start;
+
 	if (str == NULL)
 		return (NULL);
 
-	unsigned int size = _strlen(str), i = 0;
-	char *new_str, *start;
-
+	size = _strlen(str), i = 0;
 	new_str  = malloc(sizeof(char) * (size + 1));
 	start = new_str;
+
 	if (new_str == NULL)
 		return (NULL);
 
