@@ -17,10 +17,12 @@ int main(int ac, char **av)
 		printf("%s\n", "Error");
 		exit (98);
 	}
-
-	num1 = atoi(av[1]);
-	num2 = atoi(av[2]);
-	result = num1 * num2;
-	printf("%d\n", result);
-	return (0);
+	else
+	{
+		num1 = atoi(av[1]);
+		num2 = atoi(av[2]);
+		result = num1 * num2;
+		printf("%d\n", result);
+		return (0);
+	}
 }
