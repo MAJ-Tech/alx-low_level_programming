@@ -9,7 +9,7 @@
 int _abs(int n)
 {
 	int a = n;
-	/** Beginning of if else statement*/
+
 	if (a >= 1)
 	{
 		return (a);

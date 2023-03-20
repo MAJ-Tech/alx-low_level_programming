@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-/** main - Entery point*/
+
 int main(void)
 {
 	char later;
