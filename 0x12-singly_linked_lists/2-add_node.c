@@ -21,11 +21,10 @@ list_t *add_node(list_t **head, const char *str)
 
 	while (str[length])
 		length++;
-	
-	 temp->len = length;
-	 temp->str = strdup(str);
-	 temp->next = *head;
-	 *head = temp;
 
-	 return (temp);
+	temp->len = length;
+	temp->str = strdup(str);
+	temp->next = *head;
+	*head = temp;
+	return (temp);
 }
