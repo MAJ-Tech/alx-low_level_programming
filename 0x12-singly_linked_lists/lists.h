@@ -20,7 +20,7 @@ typedef struct list_s
 	struct list_s *next;
 } list_t;
 
-void free_list(list_t *head);
+void free_list(list_t **head);
 
 size_t print_list(const list_t *h);
 

@@ -8,17 +8,13 @@
  * Return: void(Has no return value).
  */
 
-void free_list(list_t *head)
+void free_list(list_t **head)
 {
-	list_t *curr = head;
-
-	while (head)
+	while (*head)
 	{
-		curr = head;
-
-		head = head->next;
-		free(curr->str);
-		free(curr);
+		list_t *temp = *head;
+		*head = (*head)->next;
+		free(temp->str);
+		free(temp);
 	}
-	free(head);
 }
