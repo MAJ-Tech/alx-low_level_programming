@@ -34,7 +34,10 @@ size_t print_listint(const listint_t *h);
 
 listint_t *add_nodeint(listint_t **head, const int n);
 
+
 listint_t *add_nodeint_end(listint_t **head, const int n);
+
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 
 /** END OF FUNCTIONS PROTOTYE */
 
