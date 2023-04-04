@@ -22,6 +22,8 @@ typedef struct listint_s
 
 int _putchar(char);
 
+int pop_listint(listint_t **head);
+
 void free_listint(listint_t *head);
 
 void free_listint2(listint_t **head);
