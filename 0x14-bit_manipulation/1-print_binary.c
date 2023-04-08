@@ -14,7 +14,8 @@ void print_binary(unsigned long int n)
 		_putchar('0');
 
 	max_uint_bits = max_uint_bits << 15;
-	do {
+	while (max_uint_bits)
+	{
 		if (flags == 1 && (n & max_uint_bits) == 0)
 			_putchar('0');
 		else if ((n & max_uint_bits) != 0)
@@ -23,5 +24,5 @@ void print_binary(unsigned long int n)
 			flags = 1;
 		}
 		max_uint_bits = max_uint_bits >> 1;
-	} while (max_uint_bits);
+	}
 }
