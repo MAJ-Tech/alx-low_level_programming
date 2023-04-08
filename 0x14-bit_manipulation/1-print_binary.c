@@ -11,9 +11,12 @@ void print_binary(unsigned long int n)
 	unsigned long int flags = 0, max_uint_bits;
 
 	if (n == 0)
+	{
 		_putchar('0');
+		return;
+	}
 
-	max_uint_bits = 32768;
+	max_uint_bits = 1 << 15;
 	while (max_uint_bits)
 	{
 		if (flags == 1 && (n & max_uint_bits) == 0)
