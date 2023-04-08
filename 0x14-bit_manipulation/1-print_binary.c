@@ -13,7 +13,7 @@ void print_binary(unsigned long int n)
 	if (n == 0)
 		_putchar('0');
 
-	max_uint_bits = 1UL << 15;
+	max_uint_bits = 32768;
 	while (max_uint_bits)
 	{
 		if (flags == 1 && (n & max_uint_bits) == 0)
@@ -23,6 +23,6 @@ void print_binary(unsigned long int n)
 			_putchar('1');
 			flags = 1;
 		}
-		max_uint_bits = max_uint_bits >> 1;
+		max_uint_bits >>= 1;
 	}
 }
