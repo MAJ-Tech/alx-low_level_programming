@@ -4,6 +4,8 @@
 
 int _putchar(char c);
 
+int get_endianness(void);
+
 void print_binary(unsigned long int n);
 
 unsigned int binary_to_uint(const char *b);
