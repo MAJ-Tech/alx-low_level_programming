@@ -16,7 +16,7 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	max_uint_bits = 1 << 15;
+	max_uint_bits = 1UL << (sizeof(unsigned long int) * 8 - 1);
 	while (max_uint_bits)
 	{
 		if (flags == 1 && (n & max_uint_bits) == 0)
